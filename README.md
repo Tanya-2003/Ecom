@@ -1,5 +1,5 @@
 # E-commerce react app
-Simple ecommerce react js app with firebase [typescript].
+Simple ecommerce react js app with Firebase [typescript].
 
 ![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny1.png)
 ![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny2.png)
@@ -12,10 +12,10 @@ Simple ecommerce react js app with firebase [typescript].
 $ yarn install
 ```
 
-### 2. Create a new firebase project
-Login to your google account and create a new firebase project [here](https://console.firebase.google.com/u/0/)
+### 2. Create a new Firebase project
+Login to your Google account and create a new Firebase project [here](https://console.firebase.google.com/u/0/)
 
-Create an `.env` file and add the following variables.
+Create a `.env` file and add the following variables.
 
 ```
 // SAMPLE CONFIG .env, you should put the actual config details found on your project settings
@@ -30,7 +30,7 @@ VITE_FIREBASE_APP_ID=234598789798798fg3-034
 
 ``` 
 
-After setting up necessary configuration,
+After setting up the necessary configuration,
 create a **Database** and choose **Cloud Firestore** and start in test mode
 
 ### 3. Run development server
@@ -48,8 +48,8 @@ $ yarn build
 ## How to add products or perform CRUD operations for Admin
 1. Navigate to your site to `/signup`
 2. Create an account for yourself
-3. Go to your firestore collection `users collection` and edit the account you've just created. Change the role from `USER` to `ADMIN`.
-4. Reload or sigin again to see the changes. 
+3. Go to your Firestore collection `users collection` and edit the account you've just created. Change the role from `USER` to `ADMIN`.
+4. Reload or login again to see the changes. 
 
 **Firebase Admin to be integrated soon**
 
@@ -60,4 +60,3 @@ $ yarn build
 * Firebase auth provider authentication
 * Account creation and edit
 
-"# Ecom" 
